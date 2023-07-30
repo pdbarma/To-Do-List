@@ -1,0 +1,192 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #74B49B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.back_form{
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    height: 100vh;
+    width: 80%;
+    margin: auto;
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: 50;
+    margin: 1rem 0 3rem;
+    text-align: center;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.styling{
+    font-weight: 800;
+    color: rgb(0, 210, 0);
+}
+
+.todo_block{
+    display: inline-block;
+}
+
+.input_div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.input_div .input{
+    padding: 0.5rem 1rem;
+    height: 40px;
+    outline: none;
+    border: none;
+    background-color: #d2d2d2;
+    width: 400px;
+    font-size: 1.15rem;
+    margin: 0.25rem;
+    border-radius: 25px;
+
+}
+
+.addButton{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    background-color: #fff;
+    color: rgb(255, 255, 255);
+    margin: 0.25rem;
+    background-color: rgb(47, 202, 117);
+    cursor: pointer;
+}
+
+.addButton:hover{
+    opacity: 0.7 ;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem;
+
+}
+
+.item{
+    display: inline-block;
+    padding: 0.5rem;
+    border-bottom: 4px solid #d2d2d2;
+    margin-bottom: 1.5rem;
+    width: fit-content;
+    
+}
+
+.item_input{
+    background: none;
+    outline: none;
+    color: #000000;
+    border: none;
+    width: 55%;
+    font-size: 1.4rem;
+}
+
+.editButton{
+    font-size: 1.4rem;
+    margin: 0 0. 5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
+    background: none;
+    font-weight: 1000;
+    outline: none;
+    color: rgb(0, 202, 0);
+    border: none;
+
+}
+
+.removeButton{
+    font-size: 1.4rem;
+    margin: 0 0.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
+    background: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    border: none;
+
+}
+
+
+/*-------------------------- NAV BAR --------------------------*/
+
+
+nav {
+    width: 100%;
+  }
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+  }
+  
+  nav ul li {
+    display: inline-block;
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  nav ul li a:hover {
+    background-color: #ffffff;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: #333;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  nav ul li a i {
+    font-size: 20px;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #eaeaea;
+  }
+  
